@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDAABC131CCE9CA0007F4205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC121CCE9CA0007F4205 /* AppDelegate.swift */; };
+		BDAABC151CCE9CA0007F4205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC141CCE9CA0007F4205 /* ViewController.swift */; };
+		BDAABC181CCE9CA0007F4205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAABC161CCE9CA0007F4205 /* Main.storyboard */; };
+		BDAABC1A1CCE9CA0007F4205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAABC191CCE9CA0007F4205 /* Assets.xcassets */; };
+		BDAABC1D1CCE9CA0007F4205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAABC1B1CCE9CA0007F4205 /* LaunchScreen.storyboard */; };
+		BDAABC281CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC271CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift */; };
+		BDAABC331CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC321CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAABC241CCE9CA0007F4205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAABC071CCE9CA0007F4205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAABC0E1CCE9CA0007F4205;
+			remoteInfo = "Pretty Simply Music App";
+		};
+		BDAABC2F1CCE9CA0007F4205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAABC071CCE9CA0007F4205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAABC0E1CCE9CA0007F4205;
+			remoteInfo = "Pretty Simply Music App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDAABC0F1CCE9CA0007F4205 /* Pretty Simply Music App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Simply Music App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAABC121CCE9CA0007F4205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDAABC141CCE9CA0007F4205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDAABC171CCE9CA0007F4205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAABC191CCE9CA0007F4205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDAABC1C1CCE9CA0007F4205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDAABC1E1CCE9CA0007F4205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAABC231CCE9CA0007F4205 /* Pretty Simply Music AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty Simply Music AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAABC271CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_Simply_Music_AppTests.swift; sourceTree = "<group>"; };
+		BDAABC291CCE9CA0007F4205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAABC2E1CCE9CA0007F4205 /* Pretty Simply Music AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty Simply Music AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAABC321CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_Simply_Music_AppUITests.swift; sourceTree = "<group>"; };
+		BDAABC341CCE9CA0007F4205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAABC0C1CCE9CA0007F4205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC201CCE9CA0007F4205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC2B1CCE9CA0007F4205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDAABC061CCE9CA0007F4205 = {
+			isa = PBXGroup;
+			children = (
+				BDAABC111CCE9CA0007F4205 /* Pretty Simply Music App */,
+				BDAABC261CCE9CA0007F4205 /* Pretty Simply Music AppTests */,
+				BDAABC311CCE9CA0007F4205 /* Pretty Simply Music AppUITests */,
+				BDAABC101CCE9CA0007F4205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAABC101CCE9CA0007F4205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAABC0F1CCE9CA0007F4205 /* Pretty Simply Music App.app */,
+				BDAABC231CCE9CA0007F4205 /* Pretty Simply Music AppTests.xctest */,
+				BDAABC2E1CCE9CA0007F4205 /* Pretty Simply Music AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAABC111CCE9CA0007F4205 /* Pretty Simply Music App */ = {
+			isa = PBXGroup;
+			children = (
+				BDAABC121CCE9CA0007F4205 /* AppDelegate.swift */,
+				BDAABC141CCE9CA0007F4205 /* ViewController.swift */,
+				BDAABC161CCE9CA0007F4205 /* Main.storyboard */,
+				BDAABC191CCE9CA0007F4205 /* Assets.xcassets */,
+				BDAABC1B1CCE9CA0007F4205 /* LaunchScreen.storyboard */,
+				BDAABC1E1CCE9CA0007F4205 /* Info.plist */,
+			);
+			path = "Pretty Simply Music App";
+			sourceTree = "<group>";
+		};
+		BDAABC261CCE9CA0007F4205 /* Pretty Simply Music AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAABC271CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift */,
+				BDAABC291CCE9CA0007F4205 /* Info.plist */,
+			);
+			path = "Pretty Simply Music AppTests";
+			sourceTree = "<group>";
+		};
+		BDAABC311CCE9CA0007F4205 /* Pretty Simply Music AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAABC321CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift */,
+				BDAABC341CCE9CA0007F4205 /* Info.plist */,
+			);
+			path = "Pretty Simply Music AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAABC0E1CCE9CA0007F4205 /* Pretty Simply Music App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAABC371CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music App" */;
+			buildPhases = (
+				BDAABC0B1CCE9CA0007F4205 /* Sources */,
+				BDAABC0C1CCE9CA0007F4205 /* Frameworks */,
+				BDAABC0D1CCE9CA0007F4205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pretty Simply Music App";
+			productName = "Pretty Simply Music App";
+			productReference = BDAABC0F1CCE9CA0007F4205 /* Pretty Simply Music App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAABC221CCE9CA0007F4205 /* Pretty Simply Music AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAABC3A1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppTests" */;
+			buildPhases = (
+				BDAABC1F1CCE9CA0007F4205 /* Sources */,
+				BDAABC201CCE9CA0007F4205 /* Frameworks */,
+				BDAABC211CCE9CA0007F4205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAABC251CCE9CA0007F4205 /* PBXTargetDependency */,
+			);
+			name = "Pretty Simply Music AppTests";
+			productName = "Pretty Simply Music AppTests";
+			productReference = BDAABC231CCE9CA0007F4205 /* Pretty Simply Music AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDAABC2D1CCE9CA0007F4205 /* Pretty Simply Music AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAABC3D1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppUITests" */;
+			buildPhases = (
+				BDAABC2A1CCE9CA0007F4205 /* Sources */,
+				BDAABC2B1CCE9CA0007F4205 /* Frameworks */,
+				BDAABC2C1CCE9CA0007F4205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAABC301CCE9CA0007F4205 /* PBXTargetDependency */,
+			);
+			name = "Pretty Simply Music AppUITests";
+			productName = "Pretty Simply Music AppUITests";
+			productReference = BDAABC2E1CCE9CA0007F4205 /* Pretty Simply Music AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAABC071CCE9CA0007F4205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Digimark Technical Solutions";
+				TargetAttributes = {
+					BDAABC0E1CCE9CA0007F4205 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BDAABC221CCE9CA0007F4205 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDAABC0E1CCE9CA0007F4205;
+					};
+					BDAABC2D1CCE9CA0007F4205 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BDAABC0E1CCE9CA0007F4205;
+					};
+				};
+			};
+			buildConfigurationList = BDAABC0A1CCE9CA0007F4205 /* Build configuration list for PBXProject "Pretty Simply Music App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAABC061CCE9CA0007F4205;
+			productRefGroup = BDAABC101CCE9CA0007F4205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAABC0E1CCE9CA0007F4205 /* Pretty Simply Music App */,
+				BDAABC221CCE9CA0007F4205 /* Pretty Simply Music AppTests */,
+				BDAABC2D1CCE9CA0007F4205 /* Pretty Simply Music AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAABC0D1CCE9CA0007F4205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAABC1D1CCE9CA0007F4205 /* LaunchScreen.storyboard in Resources */,
+				BDAABC1A1CCE9CA0007F4205 /* Assets.xcassets in Resources */,
+				BDAABC181CCE9CA0007F4205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC211CCE9CA0007F4205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC2C1CCE9CA0007F4205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAABC0B1CCE9CA0007F4205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAABC151CCE9CA0007F4205 /* ViewController.swift in Sources */,
+				BDAABC131CCE9CA0007F4205 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC1F1CCE9CA0007F4205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAABC281CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAABC2A1CCE9CA0007F4205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAABC331CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAABC251CCE9CA0007F4205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAABC0E1CCE9CA0007F4205 /* Pretty Simply Music App */;
+			targetProxy = BDAABC241CCE9CA0007F4205 /* PBXContainerItemProxy */;
+		};
+		BDAABC301CCE9CA0007F4205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAABC0E1CCE9CA0007F4205 /* Pretty Simply Music App */;
+			targetProxy = BDAABC2F1CCE9CA0007F4205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAABC161CCE9CA0007F4205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAABC171CCE9CA0007F4205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAABC1B1CCE9CA0007F4205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAABC1C1CCE9CA0007F4205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAABC351CCE9CA0007F4205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDAABC361CCE9CA0007F4205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAABC381CCE9CA0007F4205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Simply Music App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDAABC391CCE9CA0007F4205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Simply Music App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDAABC3B1CCE9CA0007F4205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty Simply Music AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Simply Music App.app/Pretty Simply Music App";
+			};
+			name = Debug;
+		};
+		BDAABC3C1CCE9CA0007F4205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty Simply Music AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Simply Music App.app/Pretty Simply Music App";
+			};
+			name = Release;
+		};
+		BDAABC3E1CCE9CA0007F4205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty Simply Music AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Simply Music App";
+			};
+			name = Debug;
+		};
+		BDAABC3F1CCE9CA0007F4205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty Simply Music AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Simply Music App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAABC0A1CCE9CA0007F4205 /* Build configuration list for PBXProject "Pretty Simply Music App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAABC351CCE9CA0007F4205 /* Debug */,
+				BDAABC361CCE9CA0007F4205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAABC371CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAABC381CCE9CA0007F4205 /* Debug */,
+				BDAABC391CCE9CA0007F4205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDAABC3A1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAABC3B1CCE9CA0007F4205 /* Debug */,
+				BDAABC3C1CCE9CA0007F4205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDAABC3D1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAABC3E1CCE9CA0007F4205 /* Debug */,
+				BDAABC3F1CCE9CA0007F4205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAABC071CCE9CA0007F4205 /* Project object */;
+}
