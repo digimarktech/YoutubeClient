@@ -1,0 +1,6 @@
+framework module Pods_Pretty_Simply_Music_App {
+  umbrella header "Pods-Pretty Simply Music App-umbrella.h"
+
+  export *
+  module * { export * }
+}

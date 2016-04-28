@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A8B89844D210B43270F20F3 /* Pods_Pretty_Simply_Music_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A97D007707107130124F97 /* Pods_Pretty_Simply_Music_App.framework */; };
 		BDAABC131CCE9CA0007F4205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC121CCE9CA0007F4205 /* AppDelegate.swift */; };
 		BDAABC151CCE9CA0007F4205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC141CCE9CA0007F4205 /* ViewController.swift */; };
 		BDAABC181CCE9CA0007F4205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAABC161CCE9CA0007F4205 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		BDAABC1D1CCE9CA0007F4205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAABC1B1CCE9CA0007F4205 /* LaunchScreen.storyboard */; };
 		BDAABC281CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC271CCE9CA0007F4205 /* Pretty_Simply_Music_AppTests.swift */; };
 		BDAABC331CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC321CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift */; };
+		BDAABC411CCE9F8A007F4205 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC401CCE9F8A007F4205 /* Video.swift */; };
+		BDAABC431CCEA88A007F4205 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC421CCEA88A007F4205 /* VideoModel.swift */; };
+		BDAABC451CCFAB20007F4205 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC441CCFAB20007F4205 /* VideoDetailViewController.swift */; };
+		BDAABC471CCFD7E8007F4205 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC461CCFD7E8007F4205 /* Constants.swift */; };
+		BDAABC4C1CD118FB007F4205 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC4B1CD118FB007F4205 /* SWRevealViewController.m */; };
+		BDAABC4E1CD1207B007F4205 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAABC4D1CD1207B007F4205 /* BackTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,17 @@
 		BDAABC2E1CCE9CA0007F4205 /* Pretty Simply Music AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty Simply Music AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAABC321CCE9CA0007F4205 /* Pretty_Simply_Music_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_Simply_Music_AppUITests.swift; sourceTree = "<group>"; };
 		BDAABC341CCE9CA0007F4205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAABC401CCE9F8A007F4205 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BDAABC421CCEA88A007F4205 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		BDAABC441CCFAB20007F4205 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		BDAABC461CCFD7E8007F4205 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDAABC491CD118E8007F4205 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BDAABC4A1CD118FA007F4205 /* Pretty Simply Music App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pretty Simply Music App-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDAABC4B1CD118FB007F4205 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BDAABC4D1CD1207B007F4205 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		C78297C3EB9A737C0D026EB8 /* Pods-Pretty Simply Music App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty Simply Music App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty Simply Music App/Pods-Pretty Simply Music App.release.xcconfig"; sourceTree = "<group>"; };
+		D7A4FDDC5315AF17E1F254A5 /* Pods-Pretty Simply Music App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty Simply Music App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty Simply Music App/Pods-Pretty Simply Music App.debug.xcconfig"; sourceTree = "<group>"; };
+		E7A97D007707107130124F97 /* Pods_Pretty_Simply_Music_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pretty_Simply_Music_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8B89844D210B43270F20F3 /* Pods_Pretty_Simply_Music_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66E02AE37E8CC5B5AA45C70A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A4FDDC5315AF17E1F254A5 /* Pods-Pretty Simply Music App.debug.xcconfig */,
+				C78297C3EB9A737C0D026EB8 /* Pods-Pretty Simply Music App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BDAABC061CCE9CA0007F4205 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				BDAABC261CCE9CA0007F4205 /* Pretty Simply Music AppTests */,
 				BDAABC311CCE9CA0007F4205 /* Pretty Simply Music AppUITests */,
 				BDAABC101CCE9CA0007F4205 /* Products */,
+				66E02AE37E8CC5B5AA45C70A /* Pods */,
+				CDF25F93502B73DA9577A9B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,14 @@
 		BDAABC111CCE9CA0007F4205 /* Pretty Simply Music App */ = {
 			isa = PBXGroup;
 			children = (
+				BDAABC481CD1187E007F4205 /* SWRevealViewController */,
 				BDAABC121CCE9CA0007F4205 /* AppDelegate.swift */,
 				BDAABC141CCE9CA0007F4205 /* ViewController.swift */,
+				BDAABC401CCE9F8A007F4205 /* Video.swift */,
+				BDAABC421CCEA88A007F4205 /* VideoModel.swift */,
+				BDAABC441CCFAB20007F4205 /* VideoDetailViewController.swift */,
+				BDAABC461CCFD7E8007F4205 /* Constants.swift */,
+				BDAABC4D1CD1207B007F4205 /* BackTableVC.swift */,
 				BDAABC161CCE9CA0007F4205 /* Main.storyboard */,
 				BDAABC191CCE9CA0007F4205 /* Assets.xcassets */,
 				BDAABC1B1CCE9CA0007F4205 /* LaunchScreen.storyboard */,
@@ -125,6 +161,24 @@
 			path = "Pretty Simply Music AppUITests";
 			sourceTree = "<group>";
 		};
+		BDAABC481CD1187E007F4205 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDAABC4B1CD118FB007F4205 /* SWRevealViewController.m */,
+				BDAABC491CD118E8007F4205 /* SWRevealViewController.h */,
+				BDAABC4A1CD118FA007F4205 /* Pretty Simply Music App-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		CDF25F93502B73DA9577A9B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7A97D007707107130124F97 /* Pods_Pretty_Simply_Music_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDAABC371CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music App" */;
 			buildPhases = (
+				0075D3A4CA0CE932D115FDB2 /* Check Pods Manifest.lock */,
 				BDAABC0B1CCE9CA0007F4205 /* Sources */,
 				BDAABC0C1CCE9CA0007F4205 /* Frameworks */,
 				BDAABC0D1CCE9CA0007F4205 /* Resources */,
+				B2B34D9A5F662355E4C8E1ED /* Embed Pods Frameworks */,
+				1F41DF7F525EF2A7D735349E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +308,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0075D3A4CA0CE932D115FDB2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F41DF7F525EF2A7D735349E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pretty Simply Music App/Pods-Pretty Simply Music App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B34D9A5F662355E4C8E1ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pretty Simply Music App/Pods-Pretty Simply Music App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDAABC0B1CCE9CA0007F4205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAABC4C1CD118FB007F4205 /* SWRevealViewController.m in Sources */,
 				BDAABC151CCE9CA0007F4205 /* ViewController.swift in Sources */,
+				BDAABC411CCE9F8A007F4205 /* Video.swift in Sources */,
 				BDAABC131CCE9CA0007F4205 /* AppDelegate.swift in Sources */,
+				BDAABC451CCFAB20007F4205 /* VideoDetailViewController.swift in Sources */,
+				BDAABC431CCEA88A007F4205 /* VideoModel.swift in Sources */,
+				BDAABC4E1CD1207B007F4205 /* BackTableVC.swift in Sources */,
+				BDAABC471CCFD7E8007F4205 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +508,34 @@
 		};
 		BDAABC381CCE9CA0007F4205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A4FDDC5315AF17E1F254A5 /* Pods-Pretty Simply Music App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pretty Simply Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pretty Simply Music App/Pretty Simply Music App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BDAABC391CCE9CA0007F4205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C78297C3EB9A737C0D026EB8 /* Pods-Pretty Simply Music App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pretty Simply Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digimarktech.Pretty-Simply-Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pretty Simply Music App/Pretty Simply Music App-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +604,7 @@
 				BDAABC391CCE9CA0007F4205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDAABC3A1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +613,7 @@
 				BDAABC3C1CCE9CA0007F4205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDAABC3D1CCE9CA0007F4205 /* Build configuration list for PBXNativeTarget "Pretty Simply Music AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +622,7 @@
 				BDAABC3F1CCE9CA0007F4205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
