@@ -11,6 +11,10 @@ import Foundation
 
 let PLAYLIST_ITEMS_URL = "https://www.googleapis.com/youtube/v3/playlistItems"
 
+let CHANNEL_SECTIONS_URL = "https://www.googleapis.com/youtube/v3/channelSections"
+
+let PLAYLIST_URL = "https://www.googleapis.com/youtube/v3/playlists"
+
 let API_KEY = "AIzaSyCJ0nChYnqDl9dRRoVpR7nhIMuZvyVgJfU"
 
 let UPLOADS_PLAYLIST_ID = "UUul3zsip1IMVyeUySVs4uvg"

@@ -18,6 +18,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
     
     
+    
+    
     @IBOutlet var menuBtn: UIBarButtonItem!
     
     override func viewDidLoad() {
@@ -30,10 +32,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.model.delegate = self
         model.getFeedVideos()
         
+        model.getPlaylistId()
+        
         loadSpinner()
         
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        
+        self.title = "Uploads"
         
     }
     
@@ -57,6 +63,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     //MARK: - VideoModel Delegate Method
+    
+    func videoModelDidUpate() {
+        
+        
+    }
     
     func dataReady() {
         

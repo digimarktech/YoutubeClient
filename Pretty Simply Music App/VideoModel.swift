@@ -12,14 +12,10 @@ import Alamofire
 protocol VideoModelDelegate {
     
     func dataReady()
+    func videoModelDidUpate()
 }
 
 class VideoModel: NSObject {
-    
-//    let API_KEY = "AIzaSyCJ0nChYnqDl9dRRoVpR7nhIMuZvyVgJfU"
-//    let UPLOADS_PLAYLIST_ID = "UUDIBBmkZIB2hjBsk1hUImdA"
-//    let TUTORIALS_PLAYLIST_ID = "PLrGWT1KtmLdvF2E9UB2Noxm3M81KPzVE2"
-//    let CHANNEL_ID = "UCul3zsip1IMVyeUySVs4uvg"
     
     var loading = false
     
@@ -27,8 +23,67 @@ class VideoModel: NSObject {
     
     var nextPageToken = String?()
     
+    var playlistItems = [String]()
+    
+    var menuTitles = [String]()
+    
     var delegate:VideoModelDelegate?
     
+    func getPlaylistDetails() {
+        
+        for (var i = 0; i < playlistItems.count; i += 1) {
+            
+            Alamofire.request(.GET, PLAYLIST_URL, parameters: ["part":"snippet", "id":playlistItems[i], "key":API_KEY], encoding: ParameterEncoding.URL, headers: nil).responseJSON(completionHandler: { (response) -> Void in
+                
+                //print(response)
+    
+                if let JSON = response.result.value {
+                    
+                    for item in JSON["items"] as! NSArray {
+                        
+                        let menuTitle = item.valueForKeyPath("snippet.title") as! String
+                        
+                        self.menuTitles.append(menuTitle)
+                    }
+                    
+                    
+                }
+                
+            })
+            
+            
+        }
+        
+        
+    }
+    
+    func getPlaylistId() {
+        
+        Alamofire.request(.GET, CHANNEL_SECTIONS_URL, parameters: ["part":"contentDetails", "channelId":CHANNEL_ID, "key":API_KEY], encoding: ParameterEncoding.URL, headers: nil).responseJSON { (response) -> Void in
+            
+            
+            if let JSON = response.result.value {
+                
+                for playlistID in JSON["items"] as! NSArray {
+                    
+                    if let playlists = playlistID.valueForKeyPath("contentDetails.playlists") {
+                        
+                        if let playlistItem = playlists[0] {
+                            
+                            self.playlistItems.append(playlistItem as! String)
+                        }
+                        
+                    }
+                    
+                    
+                }
+                
+                self.getPlaylistDetails()
+            }
+            
+        }
+        
+    }
     
     
     func getFeedVideos() {
